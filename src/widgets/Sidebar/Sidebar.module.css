@@ -29,7 +29,7 @@
 .SidebarNav ul {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .SidebarNav img {
@@ -42,8 +42,8 @@
   align-items: center;
   gap: 20px;
   cursor: pointer;
+  padding: 5px 10px;
 }
-
 
 .SidebarNav a {
   display: flex;
@@ -51,4 +51,14 @@
   gap: 20px;
   cursor: pointer;
   color: #000000;
+  border: 1px solid transparent;
+  transition: 0.2s;
+}
+
+.Link:hover {
+  background-color: #e3f4e6;
+  color: #387d3d;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  transform: translateX(4px);
 }

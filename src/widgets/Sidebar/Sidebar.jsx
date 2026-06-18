@@ -1,4 +1,5 @@
 import cls from "./Sidebar.module.css";
+
 import hugeiconsChef from "../../shared/assets/hugeicons_chef.svg";
 import materialHome from "../../shared/assets/material-symbols-light_home-outline.svg";
 import love from "../../shared/assets/love.svg";
@@ -20,33 +21,40 @@ const Sidebar = () => {
         </div>
         <nav className={cls.SidebarNav}>
           <ul>
-            <li>
-              <Link to={RouterPath.recipes}>
+            <Link to={RouterPath.recipes} className={cls.Link}>
+              <li>
                 <img src={materialHome} alt="" />
                 <p>Recipes</p>
-              </Link>
-            </li>
+              </li>
+            </Link>
+
             <li>
               <img src={love} alt="" />
               <p>Favorites</p>
             </li>
 
-            <Link to={RouterPath.categories}>
+            <Link to={RouterPath.categories} className={cls.Link}>
               <li>
                 <img src={boxIcons} alt="" />
                 <p>Categories</p>
               </li>
             </Link>
 
-            <li>
-              <img src={iconPlan} alt="" />
-              <p>Meal plan</p>
-            </li>
-            <li>
-              <img src={iconamoonProfile} alt="" />
-              <p>Profile</p>
-            </li>
-            <Link to={RouterPath.create_recipe}>
+            <Link to={RouterPath.meal_plan} className={cls.Link}>
+              <li>
+                <img src={iconPlan} alt="" />
+                <p>Meal plan</p>
+              </li>
+            </Link>
+
+            <Link to={RouterPath.profile} className={cls.Link}>
+              <li>
+                <img src={iconamoonProfile} alt="" />
+                <p>Profile</p>
+              </li>
+            </Link>
+
+            <Link to={RouterPath.create_recipe} className={cls.Link}>
               <li>
                 <img src={createIcon} alt="" />
                 <p>Create recipe</p>

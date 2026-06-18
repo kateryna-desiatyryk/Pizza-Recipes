@@ -1,0 +1,60 @@
+.MealPlanCell {
+  width: 100%;
+  padding: 30px 40px;
+}
+
+.MealPlanCell h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Grid {
+  display: grid;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.Grid {
+  grid-template-columns: 100px repeat(7, 110px);
+}
+
+.Row {
+  display: contents;
+}
+
+.DayHeader {
+  background-color: #e3f3e6;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+
+.mealType {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+
+  height: 150px;
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+}
+
+.mealType img {
+  width: 32px;
+  height: 32px;
+}
+
+.Cell {
+  height: 150px;
+  border: 1px dashed #d6d6d6;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
