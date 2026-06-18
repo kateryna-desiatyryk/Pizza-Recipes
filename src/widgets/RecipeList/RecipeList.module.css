@@ -1,0 +1,39 @@
+.RecipeList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 50px;
+  width: 100%;
+}
+
+.RecipeList h2 {
+  text-align: center;
+}
+
+.loaderContainer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 60vh;
+
+  font-size: 24px;
+  font-weight: 700;
+
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}

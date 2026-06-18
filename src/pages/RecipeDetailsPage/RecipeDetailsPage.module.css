@@ -1,0 +1,50 @@
+.RecipeDetails {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 20px;
+
+  box-shadow: 5px 5px 10px 10px rgba(204, 202, 202, 0.871);
+
+  border: 1px solid rgb(89, 89, 89);
+}
+
+.BottomWrapper {
+  display: grid;
+  grid-template-columns: minmax(140px, 33.4%) 1fr;
+}
+
+.RecipeDetailsLink {
+  color: white;
+  background-color: #e15f44;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 60vh;
+
+  font-size: 24px;
+  font-weight: 700;
+
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+:root {
+  color-scheme: light;
+
+  --page-bg: #e8eefc;
+  --frame-bg: #ffffff;
+  --frame-border: #dbe3f0;
+  --sidebar-bg: #ffffff;
+  --content-bg: #f8fafc;
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --text-muted: #94a3b8;
+
+  --accent: #2563eb;
+  --accent-soft: #dbeafe;
+  --accent-strong: #1d4ed8;
+
+  --nav-hover: #eff6ff;
+  --nav-active: #dbeafe;
+
+  --button-bg: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+  --button-text: #ffffff;
+
+  --toggle-bg: rgba(255, 255, 255, 0.9);
+  --surface-highlight: #f8fafc;
+
+  --shadow-frame: 0 24px 60px rgba(15, 23, 42, 0.1);
+  --shadow-card: 0 14px 32px rgba(15, 23, 42, 0.08);
+  --sidebar-border: 1px solid #00000033;
+  --icon-filter: none;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --page-bg: #0f172a;
+  --frame-bg: #111827;
+  --frame-border: #1f2937;
+  --sidebar-bg: #0b1220;
+  --content-bg: #111827;
+  --card-bg: #172033;
+  --card-border: #273449;
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  --accent: #60a5fa;
+  --accent-soft: rgba(96, 165, 250, 0.16);
+  --accent-strong: #93c5fd;
+
+  --nav-hover: rgba(148, 163, 184, 0.12);
+  --nav-active: rgba(96, 165, 250, 0.18);
+
+  --button-bg: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%);
+  --button-text: #ffffff;
+
+  --toggle-bg: rgba(23, 32, 51, 0.92);
+  --toggle-wrapper-bg-toggle: rgb(249, 223, 32);
+  --surface-highlight: #0f172a;
+  --sidebar-border: 1px solid #ffffff;
+  --shadow-frame: 0 28px 70px rgba(2, 6, 23, 0.45);
+  --shadow-card: 0 16px 38px rgba(2, 6, 23, 0.28);
+
+  --icon-filter: brightness(0) saturate(100%) invert(92%) sepia(18%)
+    saturate(161%) hue-rotate(182deg) brightness(102%) contrast(98%);
+}

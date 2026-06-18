@@ -1,0 +1,8 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+}
+
+.WrapperSidebarRecipeList {
+  display: flex;
+}

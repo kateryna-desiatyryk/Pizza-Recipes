@@ -1,0 +1,54 @@
+.Sidebar {
+  width: 300px;
+  min-width: 300px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  border-right: var(--sidebar-border);
+}
+
+.dark .Sidebar {
+  border-right: var(--sidebar-border);
+}
+
+.SidebarTop {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.SidebarNav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.SidebarNav img {
+  width: 24px;
+  height: 24px;
+}
+
+.SidebarNav li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+
+.SidebarNav a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  color: #000000;
+}

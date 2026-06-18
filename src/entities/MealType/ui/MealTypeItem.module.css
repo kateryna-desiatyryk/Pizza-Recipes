@@ -1,0 +1,25 @@
+.MealTypeItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  max-width: 150px;
+  width: 100%;
+  height: 178px;
+  background-color: #e3f3e6;
+  border-radius: 8px;
+  padding: 45px;
+  border: 1px solid #cccccc;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.MealTypeItem img {
+  width: 44px;
+  height: 44px;
+}
+
+.MealTypeItem p {
+  text-align: center;
+}

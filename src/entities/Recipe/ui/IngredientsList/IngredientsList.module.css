@@ -1,0 +1,25 @@
+.IngredientsListWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+
+.IngredientsList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.CircleList {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Circle {
+  width: 5px;
+  height: 5px;
+  background-color: green;
+  border-radius: 50%;
+}

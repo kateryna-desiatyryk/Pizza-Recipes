@@ -1,0 +1,12 @@
+.RecipePage {
+  padding: 30px;
+  width: 100%;
+}
+
+.RecipePageLink {
+  color: white;
+  background-color: #e15f44;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}

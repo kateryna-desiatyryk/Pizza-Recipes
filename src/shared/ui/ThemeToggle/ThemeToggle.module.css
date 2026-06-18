@@ -1,0 +1,58 @@
+.ThemeToggle {
+  position: fixed;
+  left: 40px;
+  bottom: 40px;
+  z-index: 1000;
+  width: 100%;
+
+  max-width: 200px;
+  padding: 8px 16px 14px;
+
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.title {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: #111827;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.switch {
+  width: 50px;
+  height: 24px;
+  padding: 1px;
+  border: none;
+  border-radius: 50px;
+  background: #387c3d;
+  cursor: pointer;
+}
+
+.circle {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+
+  transform: translateX(27px);
+  transition: transform 0.2s ease;
+}
+
+.circle {
+  transform: translateX(0);
+}
+
+.dark .circle {
+  transform: translateX(28px);
+}

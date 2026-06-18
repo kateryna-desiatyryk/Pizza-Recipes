@@ -1,0 +1,32 @@
+.CuisineItem {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 273px; */
+  min-width: 173px;
+  width: 100%;
+  height: fit-content;
+  gap: 29px;
+  border-radius: 8px;
+  border: 1px solid #d4d4d4;
+  cursor: pointer;
+}
+
+.CuisineItem img {
+  border-radius: 8px 8px 0 0;
+}
+
+.CuisineInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 0 11px 16px;
+}
+
+.CuisineInfo p {
+  background-color: #d5f5dc;
+  color: #387c3d;
+  max-width: 126px;
+  border-radius: 4px;
+  padding: 3px 8px;
+  margin-left: auto;
+}

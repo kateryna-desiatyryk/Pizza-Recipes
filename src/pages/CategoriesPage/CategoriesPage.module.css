@@ -1,0 +1,66 @@
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 60vh;
+
+  font-size: 24px;
+  font-weight: 700;
+
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.CategoriesPage {
+  display: flex;
+}
+
+.MealTypesCuisineWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 42px 57px;
+  width: 100%;
+}
+
+.Title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.MealTypesCuisineWrapper h2 {
+  margin-bottom: 51px;
+}
+
+.CuisineList h2 {
+  margin-bottom: 31px;
+}
+
+.CuisineListWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 37px;
+}
+
+.MealTypeWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+  margin-bottom: 22px;
+}
